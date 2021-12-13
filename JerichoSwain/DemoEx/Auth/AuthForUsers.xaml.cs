@@ -22,7 +22,7 @@ namespace DemoEx
     {
         public AuthForUsers()
         {
-            
+           InitializeComponent();
         }
     }
 }

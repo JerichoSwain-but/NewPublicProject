@@ -63,11 +63,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Database.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Database.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Auth\AuthForUsers.xaml.cs">
       <DependentUpon>AuthForUsers.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -90,6 +85,11 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Database.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database.xsd</DependentUpon>
+    </Compile>
     <Compile Include="FormForUsers\Administration.xaml.cs">
       <DependentUpon>Administration.xaml</DependentUpon>
     </Compile>

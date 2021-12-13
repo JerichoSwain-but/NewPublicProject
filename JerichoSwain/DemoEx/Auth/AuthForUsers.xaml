@@ -12,13 +12,13 @@
             <ColumnDefinition Width="367*"/>
         </Grid.ColumnDefinitions>
         <Grid Margin="2,353,-3,-354" Background="Black" Grid.ColumnSpan="2"/>
-        <Grid HorizontalAlignment="Left" Height="65" Margin="506.244,267,0,-267" VerticalAlignment="Top" Width="100" Grid.Column="1">
-            <Button Content="Auth" Margin="10"/>
+        <Grid Height="65" Margin="506,267,130,-267" VerticalAlignment="Top" Grid.Column="1">
+            <Button x:Name="Button1" Content="Auth" Margin="10"/>
         </Grid>
         <TextBox Margin="173,154,219,-123" TextWrapping="Wrap" Text="TextBox" FontFamily="Arial" FontSize="11" Grid.Column="1"/>
         <TextBox Margin="173,204,219,-173" TextWrapping="Wrap" Text="TextBox" FontSize="11" FontFamily="Arial" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="34,154,0,-123" TextWrapping="Wrap" Text="Введите логин" Width="101" RenderTransformOrigin="0.2,0.545" FontFamily="Arial" FontSize="11" TextAlignment="Center" Grid.Column="1" IsEnabled="False"/>
         <TextBlock Margin="34,205,601,-173" TextWrapping="Wrap" Text="Введите пароль" FontFamily="Arial" FontSize="11" TextAlignment="Center" IsEnabled="False" Grid.Column="1"/>
+        <TextBlock Grid.Column="1" Margin="34,154,601,-119" TextWrapping="Wrap" Text="Введите логин" IsEnabled="False" FontSize="11" FontFamily="Arial" TextAlignment="Center"/>
 
     </Grid>
 </Window>
