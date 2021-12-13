@@ -1,0 +1,24 @@
+﻿<Window x:Class="DemoEx.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoEx"
+        mc:Ignorable="d"
+        Title="Auth" Height="450" Width="800">
+    <Grid Margin="0,0,2,0" Background="Black" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="367*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="2,353,-3,-354" Background="Black" Grid.ColumnSpan="2"/>
+        <Grid HorizontalAlignment="Left" Height="65" Margin="506.244,267,0,-267" VerticalAlignment="Top" Width="100" Grid.Column="1">
+            <Button Content="Auth" Margin="10"/>
+        </Grid>
+        <TextBox Margin="173,154,219,-123" TextWrapping="Wrap" Text="TextBox" FontFamily="Arial" FontSize="11" Grid.Column="1"/>
+        <TextBox Margin="173,204,219,-173" TextWrapping="Wrap" Text="TextBox" FontSize="11" FontFamily="Arial" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="34,154,0,-123" TextWrapping="Wrap" Text="Введите логин" Width="101" RenderTransformOrigin="0.2,0.545" FontFamily="Arial" FontSize="11" TextAlignment="Center" Grid.Column="1" IsEnabled="False"/>
+        <TextBlock Margin="34,205,601,-173" TextWrapping="Wrap" Text="Введите пароль" FontFamily="Arial" FontSize="11" TextAlignment="Center" IsEnabled="False" Grid.Column="1"/>
+
+    </Grid>
+</Window>
